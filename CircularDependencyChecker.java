@@ -34,6 +34,6 @@ public class CircularDependencyChecker {
             Arrays.asList(1, 2),
             Arrays.asList(2, 0)
         );
-        System.out.println(checker.hasCircularDependency(4, edges));  // Output: true
+        System.out.println(checker.hasCircularDependency(4, edges)); 
     }
 }
